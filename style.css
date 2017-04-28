@@ -10,7 +10,7 @@ body{
 .baidu{
     text-align: center;
     color:darkblue;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 60px;
 }
 .row{
@@ -24,7 +24,11 @@ body{
 }
 .col{
     margin-bottom:20px;
-   
+    transition:box-shadow 0.5s;
+}
+.col:hover{
+    box-shadow:2px 2px 20px 5px rgba(0,0,0,0.3); 
+    filter:brightness(1.1);
 }
 .mission-pic img{
     width: 300px;
