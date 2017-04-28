@@ -1,0 +1,163 @@
+/*導航標題*/
+/*position: fixed將導航固定住,網頁往下拉,導航依然在上方*/
+nav{
+    position: fixed;
+    min-height: 50px;
+    width: 100%;
+    background-color:dimgray;   
+    
+}
+/*將導航按鈕移置右邊*/
+nav>ul{
+    float:right;
+}
+
+nav>ul>li{
+    display: inline-block;
+    margin: 0 3;
+   
+}
+/*滑鼠移到導航按鈕時的效果*/
+nav>ul>li:hover{
+    border-color:cadetblue;
+    border-width: 2px;
+    border-style: groove;
+    color:aqua;
+}
+/*取消底線*/
+li a{
+    text-decoration:none;
+    color: aliceblue;
+}
+li a:hover{
+    color:aqua;
+}
+.brand{
+    height: 50px;
+}
+/*取消body原本的margin*/
+html,body{
+    
+    margin: 0;
+    background-color: lightgray;
+}
+
+/*-----側欄-----*/
+/*margin-top是因為fixed後,會被覆蓋住一些,所以使用margin-top將其往下*/
+/*box-shadow為畫面中,邊邊的陰影*/
+.aside{
+    float: right;
+    width: 300px;
+    margin: 15px;
+    margin-top:70px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px #848484;
+    padding: 15px;
+}
+/*"這裡以後是一個側欄"*/
+#aside{
+    padding-left: 10px;
+    border-left: 3px #848484 solid;
+}
+.asideset{
+    display: inline-block;
+   
+}
+/*margin-right是為了將空間空出來給側欄*/
+#first,#second,#three,#four{
+    margin: 15px;
+    margin-right: 370px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px #848484;
+    padding: 15px;
+    font-size: 100%;
+}
+
+#first{
+    margin-top:70px;
+}
+/*響應式圖片*/
+#first>img{
+    width: 30%;
+}
+/*將ul的點用掉*/
+#second_ul{
+  list-style-type:none;
+}
+
+#three img{
+    width: 70%;
+    margin-bottom: 10px;
+    
+}
+/*-----圖片-----*/
+figure {
+    display: inline-block;
+    width: 150px;
+    box-shadow:2px 2px 3px 3px #848484;   
+    text-align: center;  
+    margin: 5px ;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+figcaption{
+    line-height:30px;
+}
+/*border-collapse是為了將table中的線條變細*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #848484;
+}
+thead{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+tfoot{
+    background-color: gainsboro;
+    font-weight: bold;
+}
+/*側欄中的表單*/
+form{
+    width: 100%;
+    margin: auto;
+}
+form input{
+    margin-bottom: 10px;
+}
+/*width是將label寬度都設為一樣,然後再使用text-align使他們對齊,而float:left是讓他在側欄中的左邊*/
+form label{
+    float: left;
+    text-align: right;
+    width:30%;
+    margin-right: 20px;
+}
+form p{
+    margin-top: -5px;
+    margin-left: 36%;
+    font-size: 14px;
+    color:gray;
+}
+textarea{
+   width: 180px;
+   height: 100px
+}
+#form_btn{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:cadetblue;
+    color: white;
+}
+#form_btn:hover{
+    background-color:cornflowerblue;
+}
+footer{
+    background-color: black;
+    min-height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

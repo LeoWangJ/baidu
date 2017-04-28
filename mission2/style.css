@@ -1,0 +1,109 @@
+nav{
+    position: relative;
+    min-height: 50px;
+    width: 100%;
+    background-color:dimgray;
+     
+}
+nav>ul{
+    float:right;
+   
+}
+nav>ul>li{
+    display: inline-block;
+    margin: 0 3;
+   
+}
+nav>ul>li:hover{
+    border-color:cadetblue;
+    border-width: 2px;
+    border-style: groove;
+    color:aqua;
+}
+li a{
+   
+    text-decoration:none;
+    color: aliceblue;
+}
+li a:hover{
+    color:aqua;
+}
+.brand{
+    height: 50px;
+}
+html,body{
+    margin: 0;
+    background-color: lightgray;
+}
+#first,#second,#three,#four,.aside{
+    margin: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px #848484;
+    padding: 15px;
+}
+#second_ul{
+  list-style-type:none;
+}
+figure {
+    width: 200px;
+    height: 180px;
+    box-shadow:2px 2px 3px 3px #848484;   
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+table{
+    width: 1200px;
+    border-collapse: collapse;
+    border: 1px solid #848484;
+}
+thead{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+tfoot{
+    background-color: gainsboro;
+    font-weight: bold;
+}
+#aside{
+    padding-left: 10px;
+    border-left: 3px #848484 solid;
+}
+form{
+    width: 100%;
+    margin: auto;
+}
+form label{
+    float: left;
+    text-align: right;
+    width:30%;
+     margin-right: 20px;
+}
+form p{
+    
+    margin-left: 32%;
+    font-size: 14px;
+    color:gray;
+}
+textarea{
+   width: 500px;
+   height: 100px
+}
+#form_btn{
+    width: 1200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:cadetblue;
+    color: white;
+}
+#form_btn:hover{
+    background-color:cornflowerblue;
+}
+footer{
+    background-color: black;
+    min-height: 50px;
+    width: auto;
+    color: white;
+    text-align: center;
+}

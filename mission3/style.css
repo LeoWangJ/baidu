@@ -1,0 +1,51 @@
+
+/* box-sizing 可以讓width大小設定為你給的值 不須再考慮padding and border */
+div{
+    border-style: solid;
+    border-color: #999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/*  overflow來定義元素超過範圍時 如何呈現
+     overflow:auto 預設會自動使用卷軸*/
+.bg{
+    overflow: auto;
+    background-color: #eee;  
+}
+/*  picture */
+img{
+    width: 80px;
+    height: 80px; 
+    margin-bottom: 10px;
+    
+}
+/* left */
+.team_logo{
+    float:left;
+    width: 200px;  
+    background-color: white;
+    
+}
+/*  將文字丟到最右邊*/
+.team_logo>p{
+    float: right;
+}
+/*  right      */
+.person_logo{ 
+
+   float: right;
+   width: 120px;
+   background-color: white;
+   
+}
+
+/*   center    */
+.content{
+   margin-left: 230px;
+   margin-right: 150px; 
+   background-color: white;    
+    
+}
+
+
+

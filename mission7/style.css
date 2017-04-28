@@ -1,0 +1,398 @@
+body,div,section,img,p,h2,h3,h4,span{
+     margin: 0;
+     padding: 0;
+}
+body{
+    width: 100%;
+}
+/*導航欄*/
+.navbar{
+   box-sizing: border-box;
+   display: inline-block; 
+   width: inherit;
+   
+}
+
+.icon1-logo{
+   box-sizing:border-box;
+   display: inline-block; 
+   padding-top:5px;
+   height: 60px;
+}
+/*logo圖*/
+.icon1-logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+    margin-right: 10px;
+   
+}
+/*新世界*/
+.icon1-logo h1{
+    display: inline-block;
+    position: relative;
+    top: -8px;
+
+}
+/*功能區(首頁,最新活動..)*/
+.icon1-navbar{
+   float: right;
+   margin-right: 80px;
+}
+.icon1-navbar a{
+    box-sizing: border-box;
+    line-height: 60px; 
+    padding: 20px;
+    text-decoration:none;
+    color:rgba(0,0,0,0.7);
+    margin: 0;
+    font-family:cursive;
+}
+/*登入*/
+.icon1-navbar a:nth-child(6){
+    color: orangered;
+}
+/*登入人像圖*/
+.icon1-navbar a img{
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.icon1-navbar a:hover{
+    border-bottom:3px solid orangered;
+    color:orangered;
+}
+/*第一區塊*/
+.section1-bg{
+    width: 100%;
+    height: 800px;
+    background: url(./img/pic01.jpg) no-repeat;
+    background-size: cover;
+}
+/*time of new life區塊*/
+.bg-container{
+    color:white;
+    position: relative;
+    width: 600px;
+    top:30%;
+    left: 150px;
+}
+/*time of new life*/
+.section1-title{
+    font-size: 5em;
+    font-family:sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+/*(新時代...新生活)文字*/
+.section1-text{ 
+    font-family:cursive;
+    font-size: 1.5em;
+    margin: 0;
+}
+/*開始體驗*/
+.section1-button{
+    display: block;
+    margin-top: 80px;
+    color: white;
+    background: orangered;
+    width: 350px;
+    height: 60px;
+    font-family:cursive;
+    font-size: 2em;
+    text-decoration:none;
+    text-align:center;
+    line-height: 60px;
+}
+
+/*第二區塊*/
+.section2{
+    width: 100%;
+    height: 250px;
+    
+}
+.section2-col{
+    display: inline-block;
+    width: 24%; 
+}
+.section2-img{
+    text-align: center;
+    margin-top:  50px;
+}
+.section2-img img{
+    
+    margin-bottom:50px;;
+}
+
+.section2-text{
+    box-sizing:border-box;
+    text-align: center;
+    font-family:cursive;
+    border-left: 3px solid gray;
+    padding-bottom: 20px;    
+}
+.text-first{
+    border:0px;
+}
+/*第三區塊*/
+.section3{
+    width: 100%;
+    height: 350px;
+    background: #EDEAEA;
+}
+.section3-img{
+    text-align: center;
+    
+}
+.section3-img img{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.section3-text{
+    text-align: center;
+    color: gray;
+    font-size:4em;
+    font-family: cursive;
+}
+/*section4*/
+.section4{
+    width:100%;
+    height: 350px;
+    background: url(./img/pic02.jpg) no-repeat;
+    background-size:cover;
+}
+.section4-title{
+    color:white;
+    text-align: center;
+    font-family: cursive;
+}
+.section4-title h2{
+    padding-top: 50px;
+}
+.section4-title hr{
+    width: 40px;
+    height: 3px;
+    background:white;
+    border-radius:30%;
+    border:1px outset;
+    margin-bottom: 30px;
+}
+.section4-title p{
+    margin-bottom: 50px;
+}
+.section4-options{
+    height: 36px;
+    position: relative;
+    top:-37px;
+    padding-left:  140px;
+    box-sizing: border-box;
+    
+}
+/*<input radio>按鈕*/
+.section4 input[type="radio"]{
+    width:240px;
+    height: 36px;
+    margin:0 10px;
+    cursor: pointer;
+    opacity: 0;         /*將radio按鈕隱藏起來*/
+    position: relative; 
+    top: 12px;
+    z-index: 10;    
+    left:  140px;
+    
+}
+/*國家選單 */
+.select{
+    width:240px;
+    height: 36px;
+    margin:0 10px;    /*1-3為與radio位置重疊再一起*/
+    font-size:14px;
+    line-height: 36px;
+    text-align: left;
+    color:gray;
+    display: inline-block;  
+    position: relative;
+    box-sizing:border-box;
+    border: 1px solid orangered;
+    /*背景圖像控制*/
+    background: url(./img/icon-7.png) no-repeat 210px 8px,#fff; /*從左移至右210px,上至下移8px背景為白色*/
+    background-size: 20px;  /*圖片大小*/
+    cursor: pointer;
+}
+/*搜索按鈕*/
+.section4 input[type="submit"]{
+   background: #BF4E48;
+   display: inline-block;
+   position: relative;
+   color: white;
+   width: 240px;
+   height: 36px;
+   margin: 0 10px;
+   left: 140px;
+   text-align: center;
+   font-size: 20px;
+   font-family: cursive;
+   letter-spacing:15px;
+    cursor: pointer;
+}
+
+.select:last-of-type{
+    visibility: hidden;
+}
+/*"國家"文字*/
+.section4-options span{
+    margin-left: 10px;
+}
+/*國家選單內容*/
+.option{
+    width: 240px;
+    background-color:antiquewhite;
+    position: absolute;  /*以select選單的位子為基準*/
+    z-index:10;
+    display: none;       /*隱藏選單內容*/
+    left: -1px;          /*對齊select選單*/
+    top:34px;            /*緊貼select選單下方*/
+}
+/*點選radio(select)後*/
+.section4 input[type="radio"]:nth-of-type(1):checked~.section4-options .select1,
+.section4 input[type="radio"]:nth-of-type(2):checked~.section4-options .select2{
+    top:-1px;
+    border:2px solid #AE7271;
+    border-bottom-width: 0;
+}
+/*點選radio(select)後 使option的display:none-->block(意思是將選單顯示出來,製造一種下拉式的感覺)*/
+.section4 input[type="radio"]:nth-of-type(1):checked~.section4-options .select1 .option{
+    display: block;
+}
+.section4 input[type="radio"]:nth-of-type(2):checked~.section4-options .select2 .option{
+    display: block;
+}
+
+
+/*選單內容*/
+.option ul{
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #AE7271;
+    border-top-width: 0;
+}
+/*選單個別內容*/
+.option ul li{
+    height: 32px;
+    line-height: 32px;
+    text-align: left;  
+    padding-left:40px;  /*給打勾圖片的空間*/
+    list-style: none;  
+    cursor:pointer;
+}
+.option li:hover{
+    background: url(./img/icon-8.png) no-repeat 10px 8px,#BF4E48; /*打勾圖片*/
+    background-size:20px;
+    color:#fff;
+}
+/*第五區塊--四張畫像*/
+.section5{
+    width: 100%;
+    height: 650px;
+    background:#EDEAEA;
+}
+.section5-container{
+    margin:0 auto;
+    width: 1150px;
+    position: relative;
+    padding-top: 100px;
+    box-sizing:border-box;
+}
+/*個別圖片區塊*/
+.section5-col{
+    display: inline-block;
+    
+    width:250px;
+    margin:0 20px;
+    
+}
+.section5-col:nth-child(4){
+    margin: 0;
+}
+.section5-pic img {
+    width: 250px;
+    height: 370px;
+    box-shadow:2px 2px 20px 1px rgba(0,0,0,0.3);
+}
+.section5-text{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 15px;
+}
+.section5-taichung{
+    font-size:30px;
+    letter-spacing:30px;
+    text-align: center;
+    
+    
+}
+.section5-text p{
+    color:gray;
+    margin: 10px 0;  
+}
+.section6{
+    width: 100%;
+    height: 600px;
+    
+}
+.section6-left{
+    background: url(./img/pic07.jpg) no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 600px;
+    display: inline-block;
+}
+.section6-text{
+    box-sizing:border-box;
+    color: white;
+    font-family: cursive;
+    width: 50%;
+    height: 400px;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.section6-text p:nth-child(1){
+    font-size: 4.75em;
+}
+.section6-text p:nth-child(2){
+    font-size: 12.875em;
+    margin-top: -40px;
+    margin-bottom: -10px;
+}
+.section6-text p:nth-child(3){
+    font-size: 1.625em;
+    margin-bottom: 10px;
+}
+.section6-text p:nth-child(4){
+    font-size: 1.625em;
+    margin-left: -40px;
+}
+.section6-right{
+    display: inline-block;
+    width: 29.7%;
+    height: 600px;
+    
+}
+.section6-title1{
+   
+}
+.section6-title1 h3{
+    text-align: center;
+}
+.section6-title1 p{
+
+}
+.section7{
+    width: 100%;
+    height: 500px;
+}

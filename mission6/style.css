@@ -1,0 +1,438 @@
+/*灰色地方*/
+body{
+    background-color: darkgrey;
+}
+/*背景  將白色背景水平置中,而margin-top沒有為height的一半,是因為沒有要垂直置中!*/
+.bg{
+    position: absolute;
+    width: 980px;
+    height: 1386px;
+    padding:0 44px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    top: 50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-490px;
+}
+/* logo */
+#logo{
+    width: 110px;
+    height: 61px;
+    background-color:coral;
+    
+}
+/*leowang文字*/
+#logo>p{
+   
+    font-size:12px;
+    font-family:Microsoft JhengHei;
+    color:#ffffff;
+    text-align: center; 
+    padding-top: 40px;
+}
+/* 2017. 03 */
+#time{
+    float: right;
+    margin-top: 40px;
+    font-size:12px;
+    font-family:Microsoft JhengHei;
+    color:#d45d5c;
+}
+/* 第一條水平線 */
+#logohr{
+    width: 892px;
+    height: 2px;
+    background-color: #938e8c;
+    margin: 0;
+}
+
+/*About technologe 的位子*/
+.about{
+    float: right;
+    margin-top: 30px;
+    font-family: Microsoft YaHei;
+}
+/*About technologe上的水平線*/
+#abouthr{
+    width: 203px;
+    height: 2px;
+    background-color:  #cc8091;
+    float: right;
+    margin-top: 0px;
+}
+/*About technologe文字 */
+.about h3{
+    line-height: 5px;
+    text-decoration: underline; 
+}
+/*About technologe中的A與T*/
+.about b{
+     font-size: 24px;  
+}
+
+#about{
+     margin-top: -5px;
+     font-size: 12px;
+     color:#676767;
+     font-family:DFKai-sb; 
+     line-height: 10px;
+}
+/* 700  font-style:italic為斜體*/
+#seven{
+    font-size: 116px;
+    color:#75b86b;
+    margin:0;
+    font-style: italic;
+    
+}
+/* 3.2 */
+#text1{
+    font-size: 55px;
+    color:#cc8091;
+    margin-top: -10px;
+    float: left;
+}
+/* 紅色css*/
+#text2{
+    font-size: 21px;
+    color:#cc8091;
+    overflow: auto;
+    margin-bottom: -20px;
+    margin-top: 15px;
+}
+/*灰色css*/
+#text3{
+    float: left;
+    font-size: 12px;
+    color:#DCDCDC;
+    
+}
+/*使用margin-top與第一個水平線有些空白的距離*/
+.pic1{
+    margin-top: 30px;
+}
+/*thu圖片*/
+.pic1 img{
+    width: 641px;
+    height: 301px;
+}
+/*東海教堂圖中左邊的綠色區塊
+  rgba不一樣的地方是多了透明度,也可以用opacity來設置透明度*/
+#green{
+    
+    position: absolute;
+    width: 191px;
+    height: 301px;
+    background-color: rgba(127,255,212,0.7);
+    top:106.5px;
+
+}
+/*東海教堂圖中右邊的紅色區塊*/
+#red{
+    position: absolute;
+    width: 191px;
+    height: 301px;
+    background-color: rgba(220,20,60,0.5);
+    top:106.5px;
+    left: 494px;
+}
+/*what when how*/
+.wwh{
+    margin-top: 20px;
+    width: 641px;
+    font-size: 12px;
+    color:#767777;
+    line-height: 16px;
+    font-family: SimSun;
+    
+}
+.wwh h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+/*what*/
+.what{
+    width: 39%;
+    float: left;
+    padding-right: 15px;
+    box-sizing: border-box;
+    
+}
+.what h3{
+    color:#418c59;
+    font-family: Microsoft YaHei;
+}
+/*when*/
+.when{
+    width: 29%;
+    overflow: auto;
+    font-family: Microsoft YaHei;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.when h3{
+    color:#d2994f;
+    
+}
+/*opacity透明度*/
+.when p{
+    color:#231815;
+    opacity:0.7;
+    line-height: 16px;
+}
+/*how */
+.how{
+    width:29%;
+    float: right;
+    font-family: Microsoft YaHei;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.how h3{
+    color:#cc7680;
+    
+}
+.how p{
+    color:black;
+    opacity:0.7;
+    line-height: 10px;
+}
+
+.how i{
+    color:#cd4a48;
+}
+/*three what*/
+.tw{
+    margin-top: 50px;
+}
+
+/*THE TECHBOLOGE OF FRONT*/
+.second{
+    margin-top: 50px;
+}
+.THE{
+    margin-right: 480px;
+   
+}
+/*THE 字型設計*/
+.THE i{
+    font-size: 72px;
+    color:#f5e327;
+    font-weight: bolder;
+    font-family: Microsoft JhengHei; 
+}
+/*TECHBOLOGE OF FRONT 字型設計 
+  font-weight:bloder為加粗字型*/
+.THE h3{
+    font-size: 42px;
+    color:#11456b;
+    font-family: Microsoft JhengHei;
+    font-weight: bolder;
+    line-height: 46px;
+}
+/* 前端技術領域 */
+.THE h4{
+    font-size: 33px;
+    color:#11456b;
+    font-family: Microsoft JhengHei;
+    font-weight: bolder;
+    margin-top: -40px;
+}
+
+.THE hr{
+    margin-top: -20px;
+    background-color:#11456b;
+    height: 2px;
+}
+/*text-align:justify使文字自動排列整齊*/
+.THE p{
+    font-size: 12px;
+    color:#767777;
+    text-align: justify;
+    font-family: SimSun;
+}
+/* first-letter設計文章開頭的第一個字*/
+#THE_text:first-letter{
+    float: left;
+    font-size: 70px;
+    color:#f5e327;
+    font-family: Microsoft YaHei;
+    margin-right:10px;
+   
+}
+/*THE TECHBOLOGE OF FRONT 的圖片*/
+.THE img{
+    float: right;
+    margin: 15px;
+    margin-right: 0;
+}
+/*text-indent:2em使文字開頭縮排兩個文字*/
+#THE_text1{
+    margin-top: -10px;
+    text-indent: 2em;
+}
+/* 前端技術中的圖片(右邊)*/
+.pic2 img{
+    float: right;
+    width: 458px;
+    height: 275px;
+}
+/*設定前端技術圖片中較黑的部分*/
+#pic2_text{
+    width: 458px;
+    height: 61px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    left: 478px;
+    margin-top: 214px; 
+    
+}
+/*綠色border-left*/
+#tag{
+    border-left: 3px #72b16a solid;
+    height: 44px;
+    margin-top: 8.5px;
+    margin-left: 35px;
+    padding-left: 15px;
+}
+#tag p{
+    font-size: 26px;
+    color: #ffffff;
+    font-family: Microsoft YaHei;
+    margin: 0;
+}
+/* letter-spacing 為文字間距*/
+#tag i{
+    font-size: 12px;
+    color: #72b16a;
+    padding-left: 10px; 
+    letter-spacing: 140%;
+}
+/*右下角米色區塊*/
+#pic2_text2{
+    width: 459px;
+    height: 318px;
+    float: right;
+    background-color:antiquewhite;
+    margin-top: 45px;
+    padding: 25px;
+    box-sizing: border-box;
+    
+}
+/* 三角形圖示 */
+#pic2_text2 img{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+#pic2_text2 p{
+    font-family: SimSun;
+    font-size: 16px;
+    color: #5a5b5b;
+    text-align: left;
+    line-height: 20px;
+}
+#pic2_text2 i{
+    font-size: 12px;
+    text-align: right;
+}
+/*米色區塊中的橘色區塊*/
+#pic2_zero{
+    width: 260px;
+    height: 160px;
+    background-color: coral;
+    margin-left: -25px;
+    margin-top: 19px;
+    
+}
+/*大 0*/
+#pic2_zero h3{
+    font-size: 110px;
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: Microsoft YaHei;
+}
+/* one two three fore five*/
+#pic2_one{
+    border-left: 2px solid;
+    height: 86px;
+    margin-top:-224px;
+    margin-left: 70px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+#pic2_one i{
+    font-size: 21px;
+    color:#ffffff;
+    line-height: 24px;
+    font-family: Microsoft JhengHei;
+}
+
+#pic2_one p{
+    color: #ffffff;
+    margin-top: -10px;
+    font-size: 12px;
+    font-family: Microsoft JhengHei;
+    
+}
+/*one two three fore five下的hello world*/
+#pic2_hello1{
+    padding-right: 20px;
+}
+/*許多hello world區塊*/
+#pic2_hello2{
+    width: 199px;
+    height: 160px;
+    float: right;
+    margin-right:-25px;
+    padding: 2px;
+    text-align: justify;
+}
+/* hello world 字型設計 */
+#pic2_hello2 p{
+    font-size: 12px;
+    color: #5a5b5b;
+    font-family: Microsoft JhengHei;
+    line-height: 16px;
+    font-style: italic;   
+    
+    
+}
+/* “ 與 ” 字型大小設計 */
+#pic2_hello2 span{
+    font-size: 72px;
+    color:#d45d5c;
+    
+}
+/* “ */
+#up{
+    float: left;
+    margin-bottom: -50px;
+}
+/* ” */
+#down{
+    float: right;
+    margin-top: -40px;
+}
+/* 最底下的水平線 */
+#endhr{
+    width: 892px;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+/*leowang mage */
+footer{
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: Microsoft JhengHei;
+    float: right;
+   
+}

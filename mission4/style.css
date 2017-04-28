@@ -1,0 +1,26 @@
+/*absolute 固定box的位子,然後使用top,left:50%將其位子設定在整個頁面中的正中間,但因為absolute的起始點為左上角,所以box會被擠下去1/4,為了將他調整為正中間,需要margin-top(為box的高的一半),margin-left(為box的寬的一半)*/
+.box{
+    height: 200px;
+    width: 400px;
+    background-color: #ccc;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+/*使用border-radius來設定圓角,分別為 左上,右上,右下,左下的順序,也可以像box2一樣直接選擇哪個圓角 */
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    border-radius:0 0 50px 0;
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    float: right;
+    margin-top: 100px;
+    border-top-left-radius: 50px;
+}
